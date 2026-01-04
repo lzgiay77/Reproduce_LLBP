@@ -28,7 +28,10 @@ cd LLBP
 ./predictor -b llbp-timing --simulate-btb -w 100M -n 200M -i nodeapp.trace.gz > res_node_llbp_real.txt 2>&1 &
 ./predictor -b llbp --simulate-btb -w 100000000 -n 200000000 -i ~/LLBP/traces/nodeapp-nodeapp.champsim.trace.gz > res_node_llbp_0lat.txt 2>&1 &
 ./predictor -b tage512kscl --simulate-btb -w 100M -n 200M -i nodeapp.trace.gz > res_node_tage512k.txt 2>&1 &
-（其他的traces命令只需要替换相应的traces数据集的名称和记录结果的txt文件名称即可）、
+（其他的traces命令只需要替换相应的traces数据集的名称和记录结果的txt文件名称即可）
+```bash
+./build/predictor --model <predictor> -w <warmup instructions> -n <simulation instructions> <trace>
+```
 
 6.创建一个名为 plot_my_fig9.py 的文件，直接把终端里那些 MPKI 绝对值 输入进去，自动计算 Reduction % 并画出和论文 Figure 9 一模一样的柱状图。
 如何使用这个脚本？
