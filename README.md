@@ -1,4 +1,4 @@
-# 复现LLBP
+# 复现LLBP：原论文github地址[LLBP](https://github.com/dhschall/LLBP)
 1. 环境准备：
 
 （1）该项目基于 ChampSim 模拟器。
@@ -63,4 +63,3 @@ pip install matplotlib numpy
 nano plot_my_fig9.py  # 粘贴代码后 Ctrl+O 保存, Ctrl+X 退出
 python3 plot_my_fig9.py
 ```
-7.原论文github地址[LLBP](https://github.com/dhschall/LLBP).
