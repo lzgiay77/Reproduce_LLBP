@@ -1,0 +1,30 @@
+brmodel: llbp, workload: traces  trace: ./traces/merced.467915.champsim.trace.gz, output: results//merced.467915//llbp-ae
+TAGE Config: nhist=36 minhist=6 maxhist=3000 LogG=10 LogB=13 Tbits=8 nbanklow=10 nbankhigh=20 born=13 assoc_start=9 assoc_end=23
+LogG:10, TBITS:8, UWIDTH:1, CWIDTH:3, ALTWIDTH:5, LogB:13, Hyst:2
+ (TAGE 463917)  (TOTAL 463917 bits 453 Kbits) 8x1024 8x1024 8x1024 8x1024 8x1024 8x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 12x1024 
+6 12 26 26 37 37 54 54 78 78 112 112 161 161 232 232 335 482 695 1444 3000 
+TAGE: N:21504 -> SIZE:340992,333K
+BASE: Dir:8192, Hyst:2048 -> SIZE: 10240, 10K
+nhist= 36; MInhist= 6; MAXHIST= 3000; STORAGESIZE= 351232, 343KB; NBENTRY= 21504
+SCL Config: useSC=1, useLoop=1
+ (LOOP 1248)  (SC 58190) 
+
+RCR: context hash config: [T:3, W:8, D:4, S:2, CTWidth:14]
+LLBP branch predictor configs -------
+LLBP Config: NumPatterns=16, NumContexts=14336, ctxAssoc=7, ptrnAssoc=4, CtrWidth=3, ReplCtrWidth=16, CtxReplCtrWidth=2, pbSize=64, TTWidth=13, CTWidth=14, simMispFlush=0, accessDelay=6
+ CD: Max size: 14336, Assoc: 7, Sets: 2048
+PS: Max size: 16, Assoc: 4, Sets: 4
+PB: Max size: 64, Assoc: 4, Sets: 16
+4=>0:0:0:11 8=>1:0:4:20 13=>2:0:8:54 14=>3:0:12:56 15=>4:1:1:78 16=>5:1:5:80 18=>6:1:9:114 19=>7:1:13:161 21=>8:2:2:232 22=>9:2:6:234 25=>10:2:10:482 28=>11:2:14:697 30=>12:3:3:1004 32=>13:3:7:1446 34=>14:3:11:2083 35=>15:3:15:3000 
+BTB:
+Basic BTB sets: 2048 ways: 8 Total entries: 16384
+Indirect:
+history lengths: 0 0 10 16 27 44 60 96 109 219 449 487 714 1313 2146 3881 
+ITTAGE tables: 64768 bytes;Region table: 240 bytes;IUM: 384 bytes;Total Storage= 65392 bytes;
+RAS:
+RAS size: 64
+Starting simulation...
+Nbr: 1M Ninst: 5M| MPKI:     2.6236 : 15650,900066 | TotalMPKI:     2.6236 : 15650,900066 | UC:99933 | nB:1000000
+Nbr: 2M Ninst: 12M| MPKI:     1.3802 : 16834,1828909 | TotalMPKI:     1.3802 : 16834,1828909 | UC:171090 | nB:2000000
+Nbr: 3M Ninst: 18M| MPKI:     1.2057 : 21750,2741899 | TotalMPKI:     1.2057 : 21750,2741899 | UC:258100 | nB:3000000
+Nbr: 4M Ninst: 23M| MPKI:     2.4297 : 57943,3601697 | TotalMPKI:     2.4297 : 57943,3601697 | UC:398302 | nB:4000000
