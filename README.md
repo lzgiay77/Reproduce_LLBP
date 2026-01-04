@@ -36,7 +36,6 @@ cd LLBP
 ```
 （其他的traces命令只需要替换相应的traces数据集的名称和记录结果的txt文件名称即可）
 6.创建一个名为 plot_my_fig9.py 的文件，直接把终端里那些 MPKI 绝对值 输入进去，自动计算 Reduction % 并画出和论文 Figure 9 一模一样的柱状图。
-如何使用这个脚本？
 （1）安装必要的库（如果还没安装）：
 ```bash
 pip install matplotlib numpy
