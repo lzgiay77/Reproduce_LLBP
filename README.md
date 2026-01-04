@@ -35,7 +35,8 @@ cd LLBP
 
 （4）统计阶段 (Statistics)：200M (2亿) 条指令
 
-4.在LLBP下创建traces文件夹，下载要跑的trace数据集（下载地址：https://zenodo.org/records/13133243）
+4.在LLBP下创建traces文件夹，下载要跑的trace数据集 [10.5281/zenodo.13133242](https://doi.org/10.5281/zenodo.13133242).
+
 本次复现我们只跑了4个traces（NodeApp、TPCC、Twitter、Merced），原论文跑了数百个。
 
 5.基线与 NodeApp 深度复现
